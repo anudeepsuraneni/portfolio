@@ -1,5 +1,4 @@
 import footerConfig from '../../assets/configs/footerConfig';
-import React from 'react';
 import { Box, IconButton } from '@mui/material';
 
 const FooterItems = () => {

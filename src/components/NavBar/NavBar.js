@@ -1,4 +1,3 @@
-import React from 'react';
 import { AppBar, Toolbar, Box } from '@mui/material';
 import NavBarItems from './NavBarItems';
 

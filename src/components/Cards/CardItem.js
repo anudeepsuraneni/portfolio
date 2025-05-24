@@ -1,4 +1,3 @@
-import React from 'react';
 import { Card, CardContent, CardMedia, Typography, Box } from '@mui/material';
 import CardIcons from './CardIcons';
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Paper, Typography, Box } from '@mui/material';
 import { Timeline, TimelineItem, TimelineSeparator, TimelineDot, TimelineConnector, TimelineContent, TimelineOppositeContent } from '@mui/lab';
 import Tags from '../Tags/Tags';

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Typography } from '@mui/material';
 import SkillsItems from './SkillsItems';
 import skillsConfig from '../../assets/configs/skillsConfig';

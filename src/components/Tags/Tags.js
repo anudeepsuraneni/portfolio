@@ -1,4 +1,3 @@
-import React from 'react';
 import { Chip, Box } from '@mui/material';
 
 const Tags = (props) => {

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Container, Grid2, Box, Typography } from '@mui/material';
 import DynamicTyping from '../../components/DynamicTyping';
 import About from '../../components/About';

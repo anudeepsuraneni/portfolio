@@ -1,4 +1,3 @@
-import React from 'react';
 import { ListItem, ListItemIcon, ListItemText, Box } from '@mui/material';
 import { Link, useLocation } from 'react-router-dom';
 import menuConfig from '../../assets/configs/menuConfig';

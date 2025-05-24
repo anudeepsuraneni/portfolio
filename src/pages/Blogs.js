@@ -1,4 +1,3 @@
-import React from 'react';
 import { Grid2 } from '@mui/material';
 import CardItem from '../components/Cards/CardItem';
 import blogConfig from '../assets/configs/blogConfig';

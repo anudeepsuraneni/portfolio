@@ -9,8 +9,6 @@ import Blogs from './pages/Blogs';
 import Footer from './components/Footer/Footer';
 import './App.css';
 
-import React from 'react';
-
 if (typeof process.env.REACT_APP_TRACKING_ID !== 'undefined') {
     ReactGA.initialize(process.env.REACT_APP_TRACKING_ID);
 }
