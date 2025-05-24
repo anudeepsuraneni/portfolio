@@ -1,15 +1,38 @@
-import { SiR } from "react-icons/si";
+import {SiR} from "react-icons/si";
+import {BiGitRepoForked} from "react-icons/bi";
+import {AiFillGithub, AiFillEye} from "react-icons/ai";
+import {MdSlideshow} from "react-icons/md";
 import cyclisticDashboard from "../images/cyclistic-dashboard.png"
 
 const projectConfig = [
     {
         id: "project-1",
-        title: "Cyclistic Bike-Share Analysis (Google Data Analytics Capstone Project)",
+        title: "How does a bike-share navigate speedy success?",
         links: [
             {
-                name: "R Markdown Document",
+                name: "analysis",
                 url: "https://anudeepsuraneni.github.io/cyclistic/",
                 icon: <SiR />
+            },
+            {
+                name: "insights",
+                url: "https://docs.google.com/presentation/d/1Fe4hTNBd_gMWMHCTpdQ2ozi8gHiuvlYfJgCWwgiELLs/edit?usp=sharing",
+                icon: <MdSlideshow />
+            },
+            {
+                name: "repo",
+                url: "https://github.com/anudeepsuraneni/cyclistic",
+                icon: <AiFillGithub/>,
+            },
+            {
+                name: "fork",
+                url: "https://github.com/anudeepsuraneni/cyclistic/fork",
+                icon: <BiGitRepoForked/>,
+            },
+            {
+                name: "subscription",
+                url: "https://github.com/anudeepsuraneni/cyclistic/subscription",
+                icon: <AiFillEye/>,
             }
         ],
         image: cyclisticDashboard,
