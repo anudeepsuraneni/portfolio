@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.f0136789.css",
+    "main.js": "/portfolio/static/js/main.29816170.js",
+    "static/media/cyclistic-dashboard.png": "/portfolio/static/media/cyclistic-dashboard.5f8e5e9ebe578611a2e6.png",
+    "index.html": "/portfolio/index.html",
+    "main.f0136789.css.map": "/portfolio/static/css/main.f0136789.css.map",
+    "main.29816170.js.map": "/portfolio/static/js/main.29816170.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0136789.css",
+    "static/js/main.29816170.js"
+  ]
+}
