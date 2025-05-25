@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.74183414.css",
-    "main.js": "/portfolio/static/js/main.3f9a5086.js",
+    "main.css": "/portfolio/static/css/main.2ae6e4f7.css",
+    "main.js": "/portfolio/static/js/main.9887cd31.js",
     "static/media/cyclistic-dashboard.png": "/portfolio/static/media/cyclistic-dashboard.ef8d799a6d4a468ce018.png",
     "index.html": "/portfolio/index.html",
-    "main.74183414.css.map": "/portfolio/static/css/main.74183414.css.map",
-    "main.3f9a5086.js.map": "/portfolio/static/js/main.3f9a5086.js.map"
+    "main.2ae6e4f7.css.map": "/portfolio/static/css/main.2ae6e4f7.css.map",
+    "main.9887cd31.js.map": "/portfolio/static/js/main.9887cd31.js.map"
   },
   "entrypoints": [
-    "static/css/main.74183414.css",
-    "static/js/main.3f9a5086.js"
+    "static/css/main.2ae6e4f7.css",
+    "static/js/main.9887cd31.js"
   ]
 }
