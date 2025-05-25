@@ -2,7 +2,7 @@ import {SiR} from "react-icons/si";
 import {BiGitRepoForked} from "react-icons/bi";
 import {AiFillGithub, AiFillEye} from "react-icons/ai";
 import {MdSlideshow} from "react-icons/md";
-import cyclisticDashboard from "../images/cyclistic-dashboard.png"
+import cyclisticLogo from "../images/cyclistic-logo.png"
 
 const projectConfig = [
     {
@@ -35,7 +35,7 @@ const projectConfig = [
                 icon: <AiFillEye/>,
             }
         ],
-        image: cyclisticDashboard,
+        image: cyclisticLogo,
         description: "A comprehensive analysis of bike-share data to understand user behavior and improve business strategies.",
         target: "_blank"
     }
