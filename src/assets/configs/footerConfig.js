@@ -1,5 +1,6 @@
 import {AiFillGithub} from "react-icons/ai";
 import {FaLinkedinIn} from "react-icons/fa";
+import { SiKaggle } from "react-icons/si";
 
 const footerConfig = {
     icons: [
@@ -11,19 +12,19 @@ const footerConfig = {
             icon: <AiFillGithub size={50}/>
         },
         {
+            id: "footer-2",
+            url: "https://www.kaggle.com/anudeepsuraneni",
+            className: "social-icon",
+            target: "_blank",
+            icon: <SiKaggle size={50}/>
+        },
+        {
             id: "footer-1",
             url: "https://www.linkedin.com/in/anudeep-suraneni/",
             className: "social-icon",
             target: "_blank",
             icon: <FaLinkedinIn size={50}/>
-        },
-        // {
-        //     id: "footer-2",
-        //     url: "https://rodrigo-arenas.medium.com",
-        //     className: "social-icon",
-        //     target: "_blank",
-        //     icon: <BsMedium size={50}/>
-        // }
+        }
     ]
 }
 

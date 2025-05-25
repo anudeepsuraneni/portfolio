@@ -21,41 +21,10 @@ const homeConfig = {
     workTimeline: [
         {
             id: "work-5",
-            title: "Experience Engineer L2",
-            company: "Publicis Sapient",
-            description: "Migrated complex systems from JavaScript to React, demonstrating strong analytical and problem-solving skills. Tackled large codebases, resolved accessibility issues, and contributed to design systems. Collaborated with cross-functional teams to deliver solutions under tight deadlines.",
-            date: "2022-Present",
-            icon: <FaReact />,
-            tags: [
-                "adobe experience manager",
-                "salesforce commerce cloud",
-                "redux saga",
-                "react redux"
-            ]
-        },
-        {
-            id: "work-4",
-            title: "Google AI Essentials",
-            company: "Coursera",
-            description: "Completed a course on AI essentials, focusing on understanding AI technologies, their applications, and ethical considerations. Gained insights into how AI can augment tasks and improve decision-making processes.",
-            date: "2023-2024",
-            icon: <GiArtificialIntelligence />,
-            tags: [
-                "augment tasks with ai",
-                "prompt engineering",
-                "evaluate ai tools",
-                "use ai responsibly",
-                "recognize ai harms",
-                "iterative thinking",
-                "use generative technologies"
-            ]
-        },
-        {
-            id: "work-3",
             title: "Google Data Analytics Professional Certificate",
             company: "Coursera",
             description: "Completed a comprehensive program covering data analysis, visualization, and ethics. Developed skills in R programming, SQL, and Tableau to analyze and visualize data effectively.",
-            date: "2022-2023",
+            date: "2024",
             icon: <SiGoogleanalytics />,
             tags: [
                 "R programming",
@@ -76,11 +45,42 @@ const homeConfig = {
             ]
         },
         {
+            id: "work-4",
+            title: "Google AI Essentials",
+            company: "Coursera",
+            description: "Completed a course on AI essentials, focusing on understanding AI technologies, their applications, and ethical considerations. Gained insights into how AI can augment tasks and improve decision-making processes.",
+            date: "2024",
+            icon: <GiArtificialIntelligence />,
+            tags: [
+                "augment tasks with ai",
+                "prompt engineering",
+                "evaluate ai tools",
+                "use ai responsibly",
+                "recognize ai harms",
+                "iterative thinking",
+                "use generative technologies"
+            ]
+        },
+        {
+            id: "work-3",
+            title: "Experience Engineer L2",
+            company: "Publicis Sapient",
+            description: "Migrated complex systems from JavaScript to React, demonstrating strong analytical and problem-solving skills. Tackled large codebases, resolved accessibility issues, and contributed to design systems. Collaborated with cross-functional teams to deliver solutions under tight deadlines.",
+            date: "2022 - Present",
+            icon: <FaReact />,
+            tags: [
+                "adobe experience manager",
+                "salesforce commerce cloud",
+                "redux saga",
+                "react redux"
+            ]
+        },
+        {
             id: "work-2",
             title: "Senior Software Developer",
             company: "Hexagon Safety & Infrastructure",
             description: "Enhanced product performance and reliability by identifying root causes and implementing solutions. Applied data-driven approaches to optimize workflows and ensure quality deliverables.",
-            date: "2019-2022",
+            date: "2019 - 2022",
             icon: <FaReact />,
             tags: [
                 "full-stack development",
@@ -100,7 +100,7 @@ const homeConfig = {
             title: "Software Developer",
             company: "Hexagon Safety & Infrastructure",
             description: "Improved software responsiveness by fivefold through collaborative efforts, fixing major performance issues.",
-            date: "2017-2019",
+            date: "2017 - 2019",
             icon: <MdWork />,
             tags: [
                 "sql",
@@ -113,7 +113,7 @@ const homeConfig = {
             title: "Bachelor of Technology (B.Tech.) in Computer Science and Engineering",
             company: "Gayatri Vidya Parishad College of Engineering (Autonomous)",
             description: "Developed a strong foundation in computer science principles, algorithms, and data structures. Engaged in projects that honed my programming skills and problem-solving abilities.",
-            date: "2013-2017",
+            date: "2013 - 2017",
             icon: <FaUniversity />,
             tags: [
                 "algorithms",

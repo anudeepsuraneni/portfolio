@@ -81,3 +81,35 @@ button {
 button:hover {
     background-color: #1e88e5; /* Blue background on hover */
 }
+
+@media screen and (max-width: 499px) {
+    .MuiCard-root {
+        width: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+  .MuiTimeline-root {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    min-width: 0 !important;
+    width: 100% !important;
+  }
+  .MuiTimelineItem-root {
+    min-width: 0 !important;
+    width: 100% !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+  .MuiTimelineOppositeContent-root {
+    display: none !important; /* Hide date on left for more space */
+  }
+  .MuiPaper-root {
+    width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box;
+    padding: 12px !important;
+  }
+}
