@@ -9,16 +9,25 @@ const Blogs = lazy(() => import('./pages/Blogs'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
 
+
 const router = createBrowserRouter(
   [
+    {
+      path: "/portfolio",
+      element: <Layout />,
+      children: [
+        { path: "", element: <Suspense fallback={<div>Loading...</div>}><Home /></Suspense> },
+        { path: "projects", element: <Suspense fallback={<div>Loading...</div>}><Projects /></Suspense> },
+        { path: "blogs", element: <Suspense fallback={<div>Loading...</div>}><Blogs /></Suspense> },
+        { path: "skills", element: <Suspense fallback={<div>Loading...</div>}><Skills /></Suspense> },
+        { path: "*", element: <Suspense fallback={<div>Loading...</div>}><NotFound /></Suspense> }
+      ]
+    },
+    // Redirect root to /portfolio
     {
       path: "/",
       element: <Layout />,
       children: [
-        { path: "/portfolio", element: <Suspense fallback={<div>Loading...</div>}><Home /></Suspense> },
-        { path: "/portfolio/projects", element: <Suspense fallback={<div>Loading...</div>}><Projects /></Suspense> },
-        { path: "/portfolio/blogs", element: <Suspense fallback={<div>Loading...</div>}><Blogs /></Suspense> },
-        { path: "/portfolio/skills", element: <Suspense fallback={<div>Loading...</div>}><Skills /></Suspense> },
         { path: "*", element: <Suspense fallback={<div>Loading...</div>}><NotFound /></Suspense> }
       ]
     }
