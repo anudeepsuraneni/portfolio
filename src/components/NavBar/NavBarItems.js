@@ -9,7 +9,6 @@ const NavBarItems = () => {
         <Box sx={{ display: 'flex', justifyContent: 'flex-start', gap: 2 }}>
             {menuConfig.sidebarData.map((item) => (
                 <ListItem
-                    button
                     component={Link}
                     to={item.path}
                     key={item.id}
