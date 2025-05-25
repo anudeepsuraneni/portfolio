@@ -15,10 +15,10 @@ const router = createBrowserRouter(
       path: "/",
       element: <Layout />,
       children: [
-        { path: "portfolio", element: <Suspense fallback={<div>Loading...</div>}><Home /></Suspense> },
-        { path: "projects", element: <Suspense fallback={<div>Loading...</div>}><Projects /></Suspense> },
-        { path: "blogs", element: <Suspense fallback={<div>Loading...</div>}><Blogs /></Suspense> },
-        { path: "skills", element: <Suspense fallback={<div>Loading...</div>}><Skills /></Suspense> },
+        { path: "/portfolio", element: <Suspense fallback={<div>Loading...</div>}><Home /></Suspense> },
+        { path: "/portfolio/projects", element: <Suspense fallback={<div>Loading...</div>}><Projects /></Suspense> },
+        { path: "/portfolio/blogs", element: <Suspense fallback={<div>Loading...</div>}><Blogs /></Suspense> },
+        { path: "/portfolio/skills", element: <Suspense fallback={<div>Loading...</div>}><Skills /></Suspense> },
         { path: "*", element: <Suspense fallback={<div>Loading...</div>}><NotFound /></Suspense> }
       ]
     }
