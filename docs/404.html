@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; url=/portfolio/" />
+    <script>
+      // For client-side routing: redirect to the correct path
+      var l = window.location;
+      var path = l.pathname.replace(/^\\/portfolio/, '');
+      window.location.replace('/portfolio' + path + l.search + l.hash);
+    </script>
+  </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
+</html>
