@@ -51,8 +51,12 @@ const NavBarItems = () => {
                             selected={location.pathname === item.path}
                             sx={{ minWidth: 120 }}
                         >
-                            <ListItemIcon sx={{ color: '#263238', minWidth: 40 }}>{item.icon}</ListItemIcon>
-                            <ListItemText primary={item.title} />
+                            <ListItemIcon sx={{ color: '#263238', minWidth: 40, mr: 1 }}>{item.icon}</ListItemIcon>
+                            <ListItemText
+                                primary={
+                                    <span style={{ fontSize: '1.15rem', fontWeight: 500, marginLeft: 8 }}>{item.title}</span>
+                                }
+                            />
                         </MenuItem>
                     ))}
                 </Menu>
@@ -85,8 +89,8 @@ const NavBarItems = () => {
                         borderBottom: location.pathname === item.path ? '3px solid #ffffff' : 'none',
                     }}
                 >
-                    <ListItemIcon sx={{ color: '#f5f5f5', minWidth: 40 }}>{item.icon}</ListItemIcon>
-                    <ListItemText primary={item.title} />
+                    <ListItemIcon sx={{ color: '#f5f5f5', minWidth: 40, mr: 1 }}>{item.icon}</ListItemIcon>
+                    <ListItemText primary={<span style={{ marginLeft: 8 }}>{item.title}</span>} />
                 </ListItem>
             ))}
         </Box>
