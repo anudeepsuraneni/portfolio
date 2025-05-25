@@ -6,7 +6,7 @@ const Blogs = () => {
     return (
         <Grid2 container spacing={6} justifyContent="center">
             {blogConfig.map((item, index) => (
-                <Grid2 key={index} sm={6} md={4}>
+                <Grid2 key={index}>
                     <CardItem item={item} />
                 </Grid2>
             ))}
