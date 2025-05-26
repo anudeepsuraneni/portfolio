@@ -11,7 +11,7 @@ const CardIcons = (props) => {
                     target={props.item.target}
                     rel="noopener noreferrer"
                     color="primary"
-                    sx={{ color: '#263238', padding: 0.5 }}
+                    sx={{ color: '#263238', padding: 2 }}
                 >
                     {link.icon}
                 </IconButton>
