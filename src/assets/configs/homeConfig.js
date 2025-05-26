@@ -21,44 +21,50 @@ const homeConfig = {
     workTimeline: [
         {
             id: "work-5",
-            title: "Google Data Analytics Professional Certificate",
-            company: "Coursera",
-            description: "Completed a comprehensive program covering data analysis, visualization, and ethics. Developed skills in R programming, SQL, and Tableau to analyze and visualize data effectively.",
-            date: "2024",
-            icon: <SiGoogleanalytics />,
-            tags: [
-                "R programming",
-                "active listening",
-                "presentation skills",
-                "tableau",
-                "data visualization",
-                "data ethics",
-                "data aggregation",
-                "data calculations",
-                "data analysis",
-                "data cleaning",
-                "spreadsheets",
-                "structured thinking",
-                "creative thinking",
-                "critical thinking",
-                "attention to detail"
-            ]
-        },
-        {
-            id: "work-4",
             title: "Google AI Essentials",
             company: "Coursera",
             description: "Completed a course on AI essentials, focusing on understanding AI technologies, their applications, and ethical considerations. Gained insights into how AI can augment tasks and improve decision-making processes.",
             date: "2024",
             icon: <GiArtificialIntelligence />,
             tags: [
-                "augment tasks with ai",
-                "prompt engineering",
-                "evaluate ai tools",
-                "use ai responsibly",
-                "recognize ai harms",
-                "iterative thinking",
-                "use generative technologies"
+                "Augment Tasks with AI",
+                "Prompt Engineering",
+                "Use AI Responsibly",
+                "Evaluate AI Tools",
+                "Recognize AI Harms",
+                "Iterative Thinking",
+                "Use Generative AI Technologies"
+            ]
+        },
+        {
+            id: "work-4",
+            title: "Google Data Analytics Professional Certificate",
+            company: "Coursera",
+            description: "Completed a comprehensive program covering data analysis, visualization, and ethics. Developed skills in R programming, SQL, and Tableau to analyze and visualize data effectively.",
+            date: "2024",
+            icon: <SiGoogleanalytics />,
+            tags: [
+                "R Programming",
+                "Tableau",
+                "SQL",
+                "Spreadsheets",
+                "Presentation skills",
+                "Data Cleaning",
+                "Data Analysis",
+                "Data Visualization",
+                "Data Aggregation",
+                "Data Collection",
+                "Data Ethics",
+                "Data Calculations",
+                "Attention to Detail",
+                "Active Listening",
+                "Collaboration",
+                "Communication",
+                "Structured Thinking",
+                "Creative Thinking",
+                "Critical Thinking",
+                "Problem Solving",
+                "Analytical Skills"
             ]
         },
         {
@@ -69,10 +75,11 @@ const homeConfig = {
             date: "2022 - Present",
             icon: <FaReact />,
             tags: [
-                "adobe experience manager",
-                "salesforce commerce cloud",
-                "redux saga",
-                "react redux"
+                "Analytical Skills",
+                "Collaboration",
+                "Adobe Experience Manager (AEM)",
+                "SalesForce Commerce Cloud (SFCC)",
+                "React.js"
             ]
         },
         {
@@ -83,16 +90,18 @@ const homeConfig = {
             date: "2019 - 2022",
             icon: <FaReact />,
             tags: [
-                "full-stack development",
-                "git",
-                "react.js",
-                "typescript",
-                "asp.net mvc",
-                "api development",
-                "node.js",
-                "javascript",
-                "css3",
-                "html5"
+                "Full-Stack Development",
+                "GIT",
+                "React.js",
+                "Angular",
+                "TypeScript",
+                "SQL",
+                "API Development",
+                "Node.js",
+                "JavaScript (ES6)",
+                "CSS 3",
+                "HTML 5",
+                "ASP.NET MVC"
             ]
         },
         {
@@ -103,9 +112,12 @@ const homeConfig = {
             date: "2017 - 2019",
             icon: <MdWork />,
             tags: [
-                "sql",
-                "problem solving",
-                "communication"
+                "Problem Solving",
+                "SQL",
+                "VB.NET MVC",
+                "Scrum Methodologies",
+                "Collaboration",
+                "Communication"
             ]
         },
         {
@@ -116,11 +128,18 @@ const homeConfig = {
             date: "2013 - 2017",
             icon: <FaUniversity />,
             tags: [
-                "algorithms",
-                "data structures",
-                "programming languages",
-                "probaility",
-                "computer science"
+                "Communication",
+                "Artificial Intelligence",
+                "Python",
+                "R Programming",
+                "Java",
+                "Data Structures",
+                "Algorithms",
+                "C Programming",
+                "Programming Languages",
+                "Statistics",
+                "Probability",
+                "Computer Science"
             ]
         }
     ]
