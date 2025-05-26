@@ -23,7 +23,7 @@ const router = createBrowserRouter(
         { path: "*", element: <Suspense fallback={<div>Loading...</div>}><NotFound /></Suspense> }
       ]
     },
-    // Redirect root to /portfolio
+    // Redirect root to portfolio
     {
       path: "/",
       element: <Layout />,

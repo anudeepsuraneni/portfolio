@@ -4,7 +4,7 @@ import { MemoryRouter } from 'react-router-dom';
 
 test('renders Home route', () => {
   render(
-    <MemoryRouter initialEntries={["/portfolio"]}>
+    <MemoryRouter initialEntries={["/portfolio/"]}>
       <App />
     </MemoryRouter>
   );
