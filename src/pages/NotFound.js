@@ -12,7 +12,7 @@ const NotFound = () => (
     <Typography variant="body1" sx={{ mb: 3 }}>
       Sorry, the page you are looking for does not exist.
     </Typography>
-    <Button variant="contained" color="primary" component={Link} to="/portfolio">
+    <Button variant="contained" color="primary" component={Link} to="/portfolio/">
       Go Home
     </Button>
   </Box>

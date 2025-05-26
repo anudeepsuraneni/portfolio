@@ -13,7 +13,7 @@ const NotFound = lazy(() => import('./pages/NotFound'));
 const router = createBrowserRouter(
   [
     {
-      path: "/portfolio",
+      path: "/portfolio/",
       element: <Layout />,
       children: [
         { path: "", element: <Suspense fallback={<div>Loading...</div>}><Home /></Suspense> },
