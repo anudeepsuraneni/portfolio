@@ -1,4 +1,4 @@
-import {SiKaggle} from "react-icons/si";
+import {FaKaggle} from "react-icons/fa";
 import cyclisticLogo from "../projects/cyclistic/logo.png"
 
 const projectConfig = [
@@ -9,7 +9,7 @@ const projectConfig = [
             {
                 name: "Kaggle Notebook",
                 url: "https://www.kaggle.com/code/anudeepsuraneni/how-does-a-bike-share-navigate-speedy-success",
-                icon: <SiKaggle size={40} />
+                icon: <FaKaggle />
             }
         ],
         image: cyclisticLogo,

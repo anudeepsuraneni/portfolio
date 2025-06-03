@@ -1,22 +1,15 @@
 import {AiFillGithub} from "react-icons/ai";
-import {FaLinkedinIn} from "react-icons/fa";
-import {SiKaggle, SiTableau} from "react-icons/si";
+import {FaLinkedinIn, FaKaggle} from "react-icons/fa";
+import {SiTableau} from "react-icons/si";
 
 const footerConfig = {
     icons: [
-        {
-            id: "GitHub",
-            url: "https://github.com/anudeepsuraneni",
-            className: "social-icon",
-            target: "_blank",
-            icon: <AiFillGithub size={50}/>
-        },
         {
             id: "Kaggle",
             url: "https://www.kaggle.com/anudeepsuraneni",
             className: "social-icon",
             target: "_blank",
-            icon: <SiKaggle size={50}/>
+            icon: <FaKaggle size={50}/>
         },
         {
             id: "Tableau",
@@ -24,6 +17,13 @@ const footerConfig = {
             className: "social-icon",
             target: "_blank",
             icon: <SiTableau size={50}/>
+        },
+        {
+            id: "GitHub",
+            url: "https://github.com/anudeepsuraneni",
+            className: "social-icon",
+            target: "_blank",
+            icon: <AiFillGithub size={50}/>
         },
         {
             id: "LinkedIn",
