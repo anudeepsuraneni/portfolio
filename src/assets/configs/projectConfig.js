@@ -1,5 +1,4 @@
 import {SiKaggle} from "react-icons/si";
-import {MdSlideshow} from "react-icons/md";
 import cyclisticLogo from "../images/cyclistic-logo.png"
 
 const projectConfig = [
@@ -8,14 +7,9 @@ const projectConfig = [
         title: "How does a bike-share navigate speedy success?",
         links: [
             {
-                name: "analysis",
+                name: "Kaggle Notebook",
                 url: "https://www.kaggle.com/code/anudeepsuraneni/how-does-a-bike-share-navigate-speedy-success",
-                icon: <SiKaggle />
-            },
-            {
-                name: "insights",
-                url: "https://docs.google.com/presentation/d/1Fe4hTNBd_gMWMHCTpdQ2ozi8gHiuvlYfJgCWwgiELLs/edit?usp=sharing",
-                icon: <MdSlideshow />
+                icon: <SiKaggle size={40} />
             }
         ],
         image: cyclisticLogo,
