@@ -1,6 +1,4 @@
-import {SiR} from "react-icons/si";
-import {BiGitRepoForked} from "react-icons/bi";
-import {AiFillGithub, AiFillEye} from "react-icons/ai";
+import {SiKaggle} from "react-icons/si";
 import {MdSlideshow} from "react-icons/md";
 import cyclisticLogo from "../images/cyclistic-logo.png"
 
@@ -11,28 +9,13 @@ const projectConfig = [
         links: [
             {
                 name: "analysis",
-                url: "https://anudeepsuraneni.github.io/cyclistic/",
-                icon: <SiR />
+                url: "https://www.kaggle.com/code/anudeepsuraneni/how-does-a-bike-share-navigate-speedy-success",
+                icon: <SiKaggle />
             },
             {
                 name: "insights",
                 url: "https://docs.google.com/presentation/d/1Fe4hTNBd_gMWMHCTpdQ2ozi8gHiuvlYfJgCWwgiELLs/edit?usp=sharing",
                 icon: <MdSlideshow />
-            },
-            {
-                name: "repo",
-                url: "https://github.com/anudeepsuraneni/cyclistic",
-                icon: <AiFillGithub/>,
-            },
-            {
-                name: "fork",
-                url: "https://github.com/anudeepsuraneni/cyclistic/fork",
-                icon: <BiGitRepoForked/>,
-            },
-            {
-                name: "subscription",
-                url: "https://github.com/anudeepsuraneni/cyclistic/subscription",
-                icon: <AiFillEye/>,
             }
         ],
         image: cyclisticLogo,
