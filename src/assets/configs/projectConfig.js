@@ -1,5 +1,5 @@
 import {SiKaggle} from "react-icons/si";
-import cyclisticLogo from "../images/cyclistic-logo.png"
+import cyclisticLogo from "../projects/cyclistic/logo.png"
 
 const projectConfig = [
     {
