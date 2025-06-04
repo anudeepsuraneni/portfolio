@@ -19,7 +19,7 @@ const projectConfig = [
             },
             {
                 name: "Executive Summary",
-                url: "https://docs.google.com/presentation/d/1Fe4hTNBd_gMWMHCTpdQ2ozi8gHiuvlYfJgCWwgiELLs/edit?usp=sharing",
+                url: "https://docs.google.com/presentation/d/1yb0p4hqFRoglSHLMsj1jNgswz7IFKU_U2kfHrOvyB6Q/edit?usp=sharing",
                 icon: <FaRegEye />
             }
         ],
