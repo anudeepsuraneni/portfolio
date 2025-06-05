@@ -24,7 +24,7 @@ const homeConfig = {
             title: "Google AI Essentials",
             company: "Coursera",
             description: "Completed a course on AI essentials, focusing on understanding AI technologies, their applications, and ethical considerations. Gained insights into how AI can augment tasks and improve decision-making processes.",
-            date: "2024",
+            date: "NOVEMBER 2024",
             icon: <GiArtificialIntelligence />,
             tags: [
                 "Augment Tasks with AI",
@@ -40,8 +40,8 @@ const homeConfig = {
             id: "work-4",
             title: "Google Data Analytics Professional Certificate",
             company: "Coursera",
-            description: "Completed a comprehensive program covering data analysis, visualization, and ethics. Developed skills in R programming, SQL, and Tableau to analyze and visualize data effectively.",
-            date: "2024",
+            description: "Completed intensive six-month program, gaining hands-on experience in data cleaning, visualization, project management, analysis interpretation, programming, and database management for data science roles.",
+            date: "JANUARY 2024 - JULY 2024",
             icon: <SiGoogleanalytics />,
             tags: [
                 "R Programming",
@@ -72,7 +72,7 @@ const homeConfig = {
             title: "Experience Engineer L2",
             company: "Publicis Sapient",
             description: "Migrated complex systems from JavaScript to React, demonstrating strong analytical and problem-solving skills. Tackled large codebases, resolved accessibility issues, and contributed to design systems. Collaborated with cross-functional teams to deliver solutions under tight deadlines.",
-            date: "2022 - Present",
+            date: "APRIL 2022 - Present",
             icon: <FaReact />,
             tags: [
                 "Analytical Skills",
@@ -86,8 +86,8 @@ const homeConfig = {
             id: "work-2",
             title: "Senior Software Developer",
             company: "Hexagon Safety & Infrastructure",
-            description: "Enhanced product performance and reliability by identifying root causes and implementing solutions. Applied data-driven approaches to optimize workflows and ensure quality deliverables.",
-            date: "2019 - 2022",
+            description: "Led end-to-end web development as a full stack developer, improving product performance through root cause analysis and scalable solutions. Applied data-driven methods, laying the foundation for a transition into data science.",
+            date: "JULY 2019 - MARCH 2022",
             icon: <FaReact />,
             tags: [
                 "Full-Stack Development",
@@ -109,7 +109,7 @@ const homeConfig = {
             title: "Software Developer",
             company: "Hexagon Safety & Infrastructure",
             description: "Improved software responsiveness by fivefold through collaborative efforts, fixing major performance issues.",
-            date: "2017 - 2019",
+            date: "JUNE 2017 - JUNE 2019",
             icon: <MdWork />,
             tags: [
                 "Problem Solving",
