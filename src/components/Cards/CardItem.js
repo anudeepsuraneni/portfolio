@@ -9,7 +9,7 @@ const CardItem = (props) => {
                 role="img"
                 aria-label={props.item.title}
                 sx={{
-                    backgroundImage: `url(${props.item.image || require('../../assets/projects/cyclistic/logo.png')})`,
+                    backgroundImage: `url(${props.item.image || require('../../projects/cyclistic/logo.png') || require('../../projects/bellabeat/logo.png')})`,
                     height: 220, // Increased height for the media
                     backgroundSize: 'contain',
                     backgroundRepeat: 'no-repeat',
