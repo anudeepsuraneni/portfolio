@@ -1,7 +1,5 @@
 // SI (Simple Icons)
-import { 
-  // SiTensorflow,      // Machine Learning
-  // SiScikitlearn,     // Regression Models
+import {
   SiTableau,         // Tableau
   SiJupyter,         // Jupyter Notebook
   SiAdobe,           // Adobe Experience Manager (AEM)
@@ -15,8 +13,7 @@ import {
 } from "react-icons/si";
 
 // FA (Font Awesome)
-import { 
-  // FaChartBar,        // Statistical Analysis
+import {
   FaPython,          // Python
   FaRProject,        // R Programming
   FaBalanceScale,    // Data Ethics
@@ -229,24 +226,6 @@ const skillsConfig = {
         },
     ],
     complementarySkills: [
-        // {
-        //     id: "MachineLearning",
-        //     className: "skill-icon",
-        //     icon: <SiTensorflow size={50}/>,
-        //     text: "Machine Learning"
-        // },
-        // {
-        //     id: "RegressionModels",
-        //     className: "skill-icon",
-        //     icon: <SiScikitlearn size={50}/>,
-        //     text: "Regression Models"
-        // },
-        // {
-        //     id: "StatisticalAnalysis",
-        //     className: "skill-icon",
-        //     icon: <FaChartBar size={50}/>,
-        //     text: "Statistical Analysis"
-        // },
         {
             id: "AugmentTasksWithAI",
             className: "skill-icon",
@@ -289,132 +268,6 @@ const skillsConfig = {
             icon: <FaMagic size={50}/>,
             text: "Use Generative AI Technologies"
         },
-        // {
-        //     id: "Rprogramming",
-        //     className: "skill-icon",
-        //     icon: <FaRProject size={50}/>,
-        //     text: "R programming"
-        // },
-        // {
-        //     id: "Tableau",
-        //     className: "skill-icon",
-        //     icon: <SiTableau size={50}/>,
-        //     text: "Tableau"
-        // },
-        // {
-        //     id: "SQL",
-        //     className: "skill-icon",
-        //     icon: <TbSql size={50}/>,
-        //     text: "SQL"
-        // },
-        // {
-        //     id: "Spreadsheets",
-        //     className: "skill-icon",
-        //     icon: <FaTable size={50}/>,
-        //     text: "Spreadsheets"
-        // },
-        // {
-        //     id: "Presentationskills",
-        //     className: "skill-icon",
-        //     icon: <MdOutlinePresentToAll size={50}/>,
-        //     text: "Presentation skills"
-        // },
-        // {
-        //     id: "DataCleaning",
-        //     className: "skill-icon",
-        //     icon: <MdCleaningServices size={50}/>,
-        //     text: "Data Cleaning"
-        // },
-        // {
-        //     id: "DataAnalysis",
-        //     className: "skill-icon",
-        //     icon: <MdDataAnalysis size={50}/>,
-        //     text: "Data Analysis"
-        // },
-        // {
-        //     id: "DataVisualization",
-        //     className: "skill-icon",
-        //     icon: <AiOutlineFundProjectionScreen size={50}/>,
-        //     text: "Data Visualization"
-        // },
-        // {
-        //     id: "DataAggregation",
-        //     className: "skill-icon",
-        //     icon: <MdOutlineDataUsage size={50}/>,
-        //     text: "Data Aggregation"
-        // },
-        // {
-        //     id: "DataCollection",
-        //     className: "skill-icon",
-        //     icon: <HiOutlineCollection size={50}/>,
-        //     text: "Data Collection"
-        // },
-        // {
-        //     id: "DataEthics",
-        //     className: "skill-icon",
-        //     icon: <FaBalanceScale size={50}/>,
-        //     text: "Data Ethics"
-        // },
-        // {
-        //     id: "DataCalculations",
-        //     className: "skill-icon",
-        //     icon: <AiOutlineCalculator size={50}/>,
-        //     text: "Data Calculations"
-        // },
-        // {
-        //     id: "AttentionToDetail",
-        //     className: "skill-icon",
-        //     icon: <FaRegEdit size={50}/>,
-        //     text: "Attention to Detail"
-        // },
-        // {
-        //     id: "ActiveListening",
-        //     className: "skill-icon",
-        //     icon: <FaRegComments size={50}/>,
-        //     text: "Active Listening"
-        // },
-        // {
-        //     id: "Collaboration",
-        //     className: "skill-icon",
-        //     icon: <HiUserGroup size={50}/>,
-        //     text: "Collaboration"
-        // },
-        // {
-        //     id: "Communication",
-        //     className: "skill-icon",
-        //     icon: <BiConversation size={50}/>,
-        //     text: "Communication"
-        // },
-        // {
-        //     id: "StructuredThinking",
-        //     className: "skill-icon",
-        //     icon: <MdOutlineLightbulb size={50}/>,
-        //     text: "Structured Thinking"
-        // },
-        // {
-        //     id: "CreativeThinking",
-        //     className: "skill-icon",
-        //     icon: <FaRegLightbulb size={50}/>,
-        //     text: "Creative Thinking"
-        // },
-        // {
-        //     id: "CriticalThinking",
-        //     className: "skill-icon",
-        //     icon: <MdPsychology size={50}/>,
-        //     text: "Critical Thinking"
-        // },
-        // {
-        //     id: "ProblemSolving",
-        //     className: "skill-icon",
-        //     icon: <FaBrain size={50}/>,
-        //     text: "Problem Solving"
-        // },
-        // {
-        //     id: "AnalyticalSkills",
-        //     className: "skill-icon",
-        //     icon: <AiOutlineSearch size={50}/>,
-        //     text: "Analytical Skills"
-        // },
         {
             id: "AEM",
             className: "skill-icon",
