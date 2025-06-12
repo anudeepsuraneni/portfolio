@@ -44,6 +44,7 @@ const homeConfig = {
             date: "JANUARY 2024 - JULY 2024",
             icon: <SiGoogleanalytics />,
             tags: [
+                "Jupyter Notebook",
                 "R Programming",
                 "Tableau",
                 "SQL",
@@ -56,8 +57,6 @@ const homeConfig = {
                 "Data Collection",
                 "Data Ethics",
                 "Data Calculations",
-                "Kaggle",
-                "Jupyter Notebook",
                 "Attention to Detail",
                 "Active Listening",
                 "Collaboration",

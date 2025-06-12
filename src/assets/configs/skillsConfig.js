@@ -18,7 +18,6 @@ import {
   FaRProject,        // R Programming
   FaBalanceScale,    // Data Ethics
   FaTable,           // Spreadsheets
-  FaKaggle,         // Kaggle
   FaRegLightbulb,    // Creative Thinking
   FaRobot,           // Augment Tasks with AI
   FaRegCheckCircle,  // Use AI Responsibly
@@ -86,6 +85,12 @@ import {
 
 const skillsConfig = {
     mainSkills: [
+        {
+            id: "JupyterNotebook",
+            className: "skill-icon",
+            icon: <SiJupyter size={50}/>,
+            text: "Jupyter Notebook"
+        },
         {
             id: "RProgramming",
             className: "skill-icon",
@@ -157,18 +162,6 @@ const skillsConfig = {
             className: "skill-icon",
             icon: <AiOutlineCalculator size={50}/>,
             text: "Data Calculations"
-        },
-        {
-            id: "Kaggle",
-            className: "skill-icon",
-            icon: <FaKaggle size={50}/>,
-            text: "Kaggle"
-        },
-        {
-            id: "JupyterNotebook",
-            className: "skill-icon",
-            icon: <SiJupyter size={50}/>,
-            text: "Jupyter Notebook"
         },
         {
             id: "AttentionToDetail",
