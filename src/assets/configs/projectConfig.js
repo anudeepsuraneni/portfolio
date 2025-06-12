@@ -19,7 +19,7 @@ const projectConfig = [
                 icon: <SiTableau />
             },
             {
-                name: "Executive Summary",
+                name: "Presentation",
                 url: "https://docs.google.com/presentation/d/1yb0p4hqFRoglSHLMsj1jNgswz7IFKU_U2kfHrOvyB6Q/edit?usp=sharing",
                 icon: <FaRegEye />
             }
@@ -38,7 +38,7 @@ const projectConfig = [
                 icon: <FaKaggle />
             },
             {
-                name: "Executive Summary",
+                name: "Presentation",
                 url: "https://docs.google.com/presentation/d/1RmR7E-n8LG3ChkKzMdp_hvu58NEcJupVKOYmFJNkl4g/edit?usp=sharing",
                 icon: <FaRegEye />
             }
