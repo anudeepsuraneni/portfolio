@@ -56,6 +56,8 @@ const homeConfig = {
                 "Data Collection",
                 "Data Ethics",
                 "Data Calculations",
+                "Kaggle",
+                "Jupyter Notebook",
                 "Attention to Detail",
                 "Active Listening",
                 "Collaboration",
